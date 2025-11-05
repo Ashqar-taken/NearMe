@@ -1,0 +1,37 @@
+{% load static %}
+<html>
+    <head>
+        <center><h1> Understanding Image Maps </h1></center>
+        <style>
+            .B1 {
+                margin: 0 auto;
+                width: 400;
+                height: 300;
+                font-size: 20px;
+            }
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="B1">
+            <b>Here we have an image with 6 different locations</b>
+            <ul>
+                    <li>Royapuram</li>
+                    <li>Vyasarpadi</li>
+                    <li>Tondiarpet</li>
+                    <li>Egmore</li>
+                    <li>Perambur</li>
+                    <li>Ayanvaram</li>
+            </ul>
+            <br>
+            <b>Note:</b> Click on the below picture to full screen the picture
+        </div>
+        <br><br>
+        <a href="map">
+            <img src="{% static 'Intro.png' %}" height="600" width="800" align="center" border="2">
+        </a>
+    </body>
+
+</html>
